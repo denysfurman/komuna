@@ -18,7 +18,9 @@ var gulp           = require('gulp'),
 gulp.task('scripts', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
-		'app/js/common.js', // Всегда в конце
+        'app/libs/owl-carousel/owl.carousel.min.js',
+        'app/libs/form_style/jquery.formstyler.js',
+		'app/js/common.js' // Всегда в конце
 		])
 	.pipe(concat('scripts.min.js'))
 	.pipe(uglify())

@@ -33,3 +33,64 @@
 </head>
 
 <body>
+
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header_topline">
+                    <div class="header_topline_logo">
+                        <a href="#"><img src="img/logo.png" alt=""></a>
+                        <span>Информационный портал Воронежа и Воронежской области</span>
+                    </div>
+                </div>
+
+                <div class="header_main">
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="#" class="nav_dop"> Новости <i class="fas fa-sort-down"></i> </a>
+                                <div class="nav_dop_wrap">
+                                    <ul>
+                                        <li><a href="#">Политика </a></li>
+                                        <li><a href="#">Общество</a></li>
+                                        <li><a href="#">Экономика</a></li>
+                                        <li><a href="#">АПК</a></li>
+                                        <li><a href="#">Правопорядок</a></li>
+                                        <li><a href="#">Политика </a></li>
+                                        <li><a href="#">Общество</a></li>
+                                        <li><a href="#">Экономика</a></li>
+                                        <li><a href="#">АПК</a></li>
+                                        <li><a href="#">Правопорядок</a></li>
+                                        <li><a href="#">Политика </a></li>
+                                        <li><a href="#">Общество</a></li>
+                                        <li><a href="#">Экономика</a></li>
+                                        <li><a href="#">АПК</a></li>
+                                        <li><a href="#">Правопорядок</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                            <li><a href="#">Аналитика </a></li>
+                            <li><a href="#">Фоторепортажи</a></li>
+                            <li><a href="#">Бизнес-сфера</a></li>
+                            <li><a href="#">Хроника</a></li>
+                            <li>
+                                <a href="#" class="nav_dop">Редакция <i class="fas fa-sort-down"></i></a>
+                                <div class="nav_dop_wrap ">
+                                    <ul class="reduct">
+                                        <li><a href="#">История газеты</a></li>
+                                        <li><a href="#">Наши издания</a></li>
+                                        <li><a href="#">Реклама </a></li>
+                                        <li><a href="#">Контакты</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

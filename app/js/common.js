@@ -17,5 +17,37 @@ $(function() {
 
     })
 
+  //fotoreport slider
+
+    $('.fotoreport_slider').owlCarousel({
+        loop:true,
+        margin:30,
+        nav:true,
+        navText:[
+            "<span class='sl_nav'><i class=\"fas fa-angle-right\"></i></span>",
+            "<span class='sl_nav'><i class=\"fas fa-angle-right\"></i></span>"
+        ],
+        items:4,
+
+        responsive:{
+            0:{
+                items:1
+            },
+            480:{
+                items:2
+            },
+            767:{
+                items:3
+            },
+            1000:{
+                items:3
+            },
+
+            1400:{
+                items:4
+            }
+        }
+    });
+
 	
 });

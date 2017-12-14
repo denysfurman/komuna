@@ -69,6 +69,9 @@ ul, li
 	max-width: 100%
 	height: auto
 
+.text_decor
+	text-decoration-line: underline
+
 // -----------------------------------
 
 .parner_new
@@ -272,7 +275,6 @@ ul, li
 			a
 				font-size: 14px
 				color: #000
-				text-decoration: underline
 				line-height: 1
 				padding: 3px 10px
 				text-decoration: none
@@ -283,7 +285,17 @@ ul, li
 					color: #fff
 					background-color: #b61313
 
+.fotoreport
+	display: inline-block
+	width: 100%
+	background-color: #f8f8f8
+	padding: 70px 0
+	.title span
+		display: inline-block
+		line-height: 1
+		border-bottom: 1px solid #999
 
 
+@import "header"
 @import "footer" // Всегда в конц
 @import "media" // Всегда в конце

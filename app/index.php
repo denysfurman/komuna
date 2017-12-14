@@ -1,4 +1,31 @@
 <?php include('include/header.php'); ?>
+<section class="fotoreport">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="title"><span>Фоторепортажи</span></div>
+                <div class="fotoreport_slider">
+                    <div class="item">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos excepturi illum iste, minus modi perferendis porro quibusdam repellendus saepe.
+                    </div>
+
+                    <div class="item">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos excepturi illum iste, minus modi perferendis porro quibusdam repellendus saepe.
+                    </div>
+
+                    <div class="item">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos excepturi illum iste, minus modi perferendis porro quibusdam repellendus saepe.
+                    </div>
+
+                    <div class="item">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eos excepturi illum iste, minus modi perferendis porro quibusdam repellendus saepe.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="history">
     <div class="container">
