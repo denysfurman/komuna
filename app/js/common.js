@@ -19,15 +19,15 @@ $(function() {
 
   //fotoreport slider
 
-    $('.fotoreport_slider').owlCarousel({
+    $('.photoreport_slider').owlCarousel({
         loop:true,
         margin:30,
         nav:true,
         navText:[
-            "<span class='sl_nav'><i class=\"fas fa-angle-right\"></i></span>",
+            "<span class='sl_nav'><i class=\"fas fa-angle-left\"></i></span>",
             "<span class='sl_nav'><i class=\"fas fa-angle-right\"></i></span>"
         ],
-        items:4,
+        items:5,
 
         responsive:{
             0:{
@@ -40,7 +40,7 @@ $(function() {
                 items:3
             },
             1000:{
-                items:3
+                items:4
             },
 
             1400:{
